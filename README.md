@@ -1,6 +1,6 @@
 # IrisMQ Book
 
-IrisMQ is a microservices architecture that combines [NSQ](http://nsq.io) and [Project Iris](https://github.com/ibmendoza/project-iris) to stop API sprawl and use the programming language you want (as long as it supports NSQ and Iris protocols) however you want. Bring your own libraries, modules, packages, you name it.
+IrisMQ is a microservices architecture that combines [NSQ](http://nsq.io) and [Project Iris](https://github.com/ibmendoza/project-iris) to stop [API sprawl](https://itjumpstart.wordpress.com/2016/01/04/the-road-to-computing) and use the programming language you want (as long as it supports NSQ and Iris protocols) however you want. Bring your own libraries, modules, packages, you name it.
 
 To quote [Jesper Louis Andersen](https://medium.com/this-is-not-a-monad-tutorial/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#),
 
