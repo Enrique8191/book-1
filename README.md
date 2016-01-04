@@ -6,7 +6,7 @@ To quote [Jesper Louis Andersen](https://medium.com/this-is-not-a-monad-tutorial
 
 > Protocols are far better than APIs because they invite multiple competing implementations of the same thing. They debug themselves over time by virtue of non-interaction between peers. And they open up the design space, rather than closing it down. In a distributed world, we should not be slaves to API designs by large mega-corporations, but be masters of the protocols.
 
-IrisMQ does not care what frameworks you use. It is your choice. It's anything goes.
+IrisMQ does not care what frameworks or libraries you use. It's your choice. It's anything goes the way computing should be.
 
 #### Supported [client libraries](http://nsq.io/clients/client_libraries.html) for NSQ:
 
@@ -30,3 +30,4 @@ IrisMQ does not care what frameworks you use. It is your choice. It's anything g
 - Erlang
 - Java
 - Scala
+- build your own here
