@@ -10,6 +10,7 @@ IrisMQ does not care what frameworks or libraries you use. It's your choice. It'
 
 #### Supported [client libraries](http://nsq.io/clients/client_libraries.html) for NSQ:
 
+- HTTP
 - Go
 - Python
 - JavaScript
