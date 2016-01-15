@@ -2,6 +2,8 @@ Ask me anything about messaging, message queue, dev or architectural issues and 
 
 Only developer/architectural/design questions (not ops)
 
+Ask your question by opening a new issue [here](https://github.com/IrisMQ/book/issues)
+
 # IrisMQ Book
 
 IrisMQ is a microservices architecture that combines [NSQ](http://nsq.io) and [Project Iris](https://github.com/ibmendoza/project-iris) to stop [API sprawl](https://itjumpstart.wordpress.com/2016/01/04/the-road-to-computing) and use the programming language you want (as long as it supports NSQ and Iris protocols) however you want. Bring your own libraries, modules, packages, you name it.
