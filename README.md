@@ -1,3 +1,11 @@
+IrisMQ = [Iris](https://github.com/ibmendoza/project-iris) and [NSQ](http://nsq.io)
+
+|      | RPC  | Publish/Subscribe                           |Broadcast     |Clustering       |
+|:----:|:----:|:-------------------------------------------:|:------------:|:---------------:|
+| NSQ  | No   | Broadcast OR Load Balance among consumers   |      No      |   Shard         |
+| Iris | Yes  | Broadcast to all consumers                  |      Yes     |P2P (Pastry DHT) |
+
+
 The purpose of software is to abstract operations for developers while making it ops-friendly post-development. While software strives to be a black box as much as possible, it does not mean you cannot peek inside how it works. NSQ and Iris are two fine examples of software because they are based on protocols. 
 
 To quote [Jesper Louis Andersen](https://medium.com/this-is-not-a-monad-tutorial/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#),
