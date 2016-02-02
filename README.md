@@ -6,24 +6,20 @@ IrisMQ = [Iris](https://github.com/ibmendoza/project-iris) and [NSQ](http://nsq.
 | Iris | Yes  | Broadcast to all consumers                  |      Yes     |P2P (Pastry DHT) |
 
 
-The purpose of software is to abstract operations for developers while making it ops-friendly post-development. While software strives to be a black box as much as possible, it does not mean you cannot peek inside how it works. NSQ and Iris are two fine examples of software because they are based on protocols. 
+IrisMQ is a do-it-yourself toolkit for building microservices.
 
-To quote [Jesper Louis Andersen](https://medium.com/this-is-not-a-monad-tutorial/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#),
+**Goals**
 
-"Protocols are far better than APIs because they invite multiple competing implementations of the same thing. They debug themselves over time by virtue of non-interaction between peers. And they open up the design space, rather than closing it down. In a distributed world, we should not be slaves to API designs by large mega-corporations, but be masters of the protocols."
+- Operate in a heterogeneous SOA
+- RPC and asynchronous messaging patterns are first-class citizens
+- Pluggable serialization and transport — not just JSON over HTTP
+- Operate within existing infrastructures — no mandates for specific tools or technologies
 
-Of course, you cannot evade the bullet since your choice of programming language has an API of its own. What I am saying is, whatever is your choice, you need to build on top of protocols using your favorite programming language. That is because software development is hard. You do not need to reinvent the wheel unless you have substantial operations experience to back it up or you are competent enough to upend the status quo.
+**Non-goals**
 
-This is a phenomenon that will persist as long as software is still on its process to maturity. Until software becomes invisible, we are going to wrestle with choices.
+- Re-implementing functionality that can be provided by wrapping existing packages
+- Having opinions on deployment, orchestration, process supervision, etc.
+- Having opinions on configuration passing — flags, env vars, files, etc.
 
-For now, let me say that we have two weapons to combat this phenomenon.
+Goals and non-goals are shamelessly copied from go-kit but only because IrisMQ is based on [protocols](https://medium.com/this-is-not-a-monad-tutorial/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#), not APIs.
 
-First, the name of the game is usability. If your software is not easy to use, the markets will punish you.
-
-Second and related to usability is minimalism. That is, while system operations may be complicated, software at least must expose a minimal interface. If you have 100 flag options for your CLI-based software, it is time to refactor your software. If using your software entails 100-step workflow, it is time to overhaul its design. If you have over 100 pages for documentation, it's time to trim it. If your software needs technical support, there is no incentive to free your customers.
-
-It is time to break this shackle of API slavery.
-
-Iris and NSQ don't care whatever is your favorite programming language or libraries. It's your choice. It's anything goes the way computing should be.
-
-It's your call.
