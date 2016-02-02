@@ -23,3 +23,5 @@ IrisMQ is a do-it-yourself toolkit for building microservices.
 
 Goals and non-goals are shamelessly copied from go-kit but only because IrisMQ is based on [protocols](https://medium.com/this-is-not-a-monad-tutorial/interview-with-jesper-louis-andersen-about-erlang-haskell-ocaml-go-idris-the-jvm-software-and-b0de06440fbd#), not APIs.
 
+It is [anything goes](https://en.wikipedia.org/wiki/Epistemological_anarchism) the way computing should be.
+
