@@ -1,4 +1,4 @@
-IrisMQ is a distributed system toolkit based on [Iris](https://github.com/ibmendoza/project-iris) and [NSQ](http://nsq.io)
+IrisMQ is a distributed system toolkit for humans (not machines) based on [Iris](https://github.com/ibmendoza/project-iris) and [NSQ](http://nsq.io)
 
 |      | RPC  | Publish/Subscribe                           |Broadcast     |Clustering       |
 |:----:|:----:|:-------------------------------------------:|:------------:|:---------------:|
