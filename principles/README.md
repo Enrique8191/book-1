@@ -18,3 +18,5 @@
 ### The Workflow
 
 - [Message Producer](https://github.com/IrisMQ/book/blob/master/principles/msgproducer.md)
+- [Message Transport](https://github.com/IrisMQ/book/blob/master/principles/msgtransport.md)
+- [Message Queue](https://github.com/IrisMQ/book/blob/master/principles/msgqueue.md)
