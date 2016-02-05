@@ -33,7 +33,7 @@ But seriously, why messaging?
 
 Messaging is all about ripping out the asynchronous tasks from the synchronous request/reply of a Web request, and turning them into messages. Of course, processing is not all Web in nature but you get the idea. Any business process which can be scheduled or executed later in the background can be turned into messages. The operative word is asynchronous.
 
-But then again, asynchronous computing has been with us since Node.js and others came along (see [concurrency vs parallelism](index.html#concurrency)). Sure, you can store messages in memory and process it one by one or several messages at once using threads, Web Workers or whatnot. The problem then becomes that of **API sprawl**. If you use JavaScript, you have NodeJS. If you use Python, you have Tornado IOLoop or gevent. If you use Ruby, there is celluloid. If you use Erlang, there is actor-based concurrency built-in with the runtime system.
+But then again, asynchronous computing has been with us since Node.js and others came along (see [concurrency vs parallelism](https://github.com/IrisMQ/book/blob/master/principles/concurrency.md)). Sure, you can store messages in memory and process it one by one or several messages at once using threads, Web Workers or whatnot. The problem then becomes that of **API sprawl**. If you use JavaScript, you have NodeJS. If you use Python, you have Tornado IOLoop or gevent. If you use Ruby, there is celluloid. If you use Erlang, there is actor-based concurrency built-in with the runtime system.
 
 In a polyglot world of **non-trivial** systems, you can have message producers written in Go, Ruby or Python and have it consumed by Erlang, Elixir or JVM (and all other possible combinations).
 
