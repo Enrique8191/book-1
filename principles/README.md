@@ -14,3 +14,7 @@
 
 - [Iris](https://github.com/IrisMQ/book/blob/master/principles/irisoverview.md)
 - [NSQ](https://github.com/IrisMQ/book/blob/master/principles/nsqoverview.md)
+
+### The Workflow
+
+- [Message Producer](https://github.com/IrisMQ/book/blob/master/principles/msgproducer.md)
