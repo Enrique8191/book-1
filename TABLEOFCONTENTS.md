@@ -23,3 +23,7 @@
 - [Message Transport](https://github.com/IrisMQ/book/blob/master/principles/msgtransport.md)
 - [Message Queue](https://github.com/IrisMQ/book/blob/master/principles/msgqueue.md)
 - [Message Consumer](https://github.com/IrisMQ/book/blob/master/principles/msgconsumer.md)
+
+### Messaging Patterns
+
+- [Request/Reply](https://github.com/IrisMQ/book/blob/master/principles/requestreply.md)
