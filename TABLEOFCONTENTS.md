@@ -27,3 +27,4 @@
 ### Messaging Patterns
 
 - [Request/Reply](https://github.com/IrisMQ/book/blob/master/principles/requestreply.md)
+- [Publish/Subscribe](https://github.com/IrisMQ/book/blob/master/principles/pubsub.md)
