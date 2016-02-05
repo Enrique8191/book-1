@@ -7,3 +7,4 @@
 - [Distributed System Matrix](https://github.com/IrisMQ/book/blob/master/principles/matrix.md)
 - [Why Messaging?](https://github.com/IrisMQ/book/blob/master/principles/messaging.md)
 - [Pipeline Computing](https://github.com/IrisMQ/book/blob/master/principles/pipeline.md)
+- [Clustering](https://github.com/IrisMQ/book/blob/master/principles/clustering.md)
