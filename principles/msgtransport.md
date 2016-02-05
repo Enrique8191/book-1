@@ -34,7 +34,7 @@ Why Iris?
 - Iris clients can talk to any apps that support the Iris protocol (Go, JVM, Erlang VM) under Linux, Windows and ARMv6
     
 We don't use Iris feature called tunnel. With Go, this can be also handled using the package context. Moreover, tunneling is
-best served by stateful protocols like MySQL. Instead of tunneling, we can use <a href="index.html#pipeline">**pipeline computing**</a>.
+best served by stateful protocols like MySQL. Instead of tunneling, we can use <a href="https://github.com/IrisMQ/book/blob/master/principles/pipeline.md">**pipeline computing**</a>.
 
 **How to Setup a Cluster**
 
