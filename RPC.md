@@ -146,4 +146,4 @@ To illustrate, consider the following diagram courtesy of [Harlow Ward](https://
 
 With stack, you can use ```ctx.Put``` (if necessary) for every ```func (ctx *stack.Context, next http.Handler) http.Handler``` and aggregate the results to the final handler.
 
-<img src="../../img/harlow.png">
+<img src="https://itjumpstart.files.wordpress.com/2016/02/harlow.png">
