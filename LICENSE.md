@@ -1,6 +1,6 @@
 All Rights Reserved. <br>
 Copyright (c) 2016 <br>
-Isagani Mendoza <br>
+[Isagani Mendoza](http://itmarketplace.net/messaging) <br>
 
 ### License
 
