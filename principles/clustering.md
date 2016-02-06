@@ -11,6 +11,8 @@
 
 ### Clustering
 
+*With traditional clustering, you think in terms of IPaddr:port. With Iris clustering, you think in terms of cluster name and port. [Give it five minutes.](https://signalvnoise.com/posts/3124-give-it-five-minutes)*
+
 Any non-trivial computing system has notion of clustering. That is, grouping nodes (physical or virtual machines) that act together as one
 collective unit of computing.
 
