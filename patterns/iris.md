@@ -51,7 +51,7 @@ For example,
 
 nginx --> proxy --> Iris client --> Iris service
 
-See [proxy example](patterns.html#wq).
+See [proxy example](https://github.com/IrisMQ/book/blob/master/patterns/wq.md).
 
 **Iris Does Not Need Service Discovery**
 
@@ -72,7 +72,7 @@ The services need to implement the Register API and provide the appropriate resp
 func Register(port int, cluster string, handler ServiceHandler, limits *ServiceLimits) (*Service, error)
 ```
 
-See Iris request/reply [example](patterns.html#irisreqrep).
+See Iris request/reply [example](https://github.com/IrisMQ/book/blob/master/patterns/irisreqrep.md).
 
 The main ideas of RPC are the following:
 
@@ -86,14 +86,14 @@ Messaging is different from RPC because it is asynchronous in nature (fire-and-f
 
 The idea of messaging boils down to producer/consumer. A producer generates a message regardless if the consumer is on the same node or across a network.
 
-- [broadcast](patterns.html#irisbroadcast)
-- [publish/subscribe](patterns.html#irispubsub)
+- [broadcast](https://github.com/IrisMQ/book/blob/master/patterns/irisbroadcast.md)
+- [publish/subscribe](https://github.com/IrisMQ/book/blob/master/patterns/irispubsub.md)
 
 **In a Nutshell**
 
 So how come Iris does not need [service discovery](http://jasonwilder.com/blog/2014/02/04/service-discovery-in-the-cloud/) tools?
 
-This is the part where I will explain why messaging and [clustering](index.html#clustering) are just two facets of the same coin.
+This is the part where I will explain why messaging and [clustering](https://github.com/IrisMQ/book/blob/master/principles/clustering.md) are just two facets of the same coin.
 
 - In the traditional setup, clustering is based on brokers and wiring the nodes (physical or virtual machines) is based on instance (IP address).
 
