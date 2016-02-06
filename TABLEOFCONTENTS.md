@@ -39,3 +39,4 @@
 - [Topics and Channels](https://github.com/IrisMQ/book/blob/master/mq/topics.md)
 - [Basic Example](https://github.com/IrisMQ/book/blob/master/mq/nsqbasic.md)
 - [Balancing Example](https://github.com/IrisMQ/book/blob/master/mq/nsqbalancing.md)
+- [Broadcast Example](https://github.com/IrisMQ/book/blob/master/mq/nsqbroadcast.md)
