@@ -17,3 +17,4 @@
 - [Error Handling](https://github.com/IrisMQ/book/blob/master/patterns/error.md)
 - [Fire-and-Forget](https://github.com/IrisMQ/book/blob/master/patterns/firenforget.md)
 - [Iris Request/Reply](https://github.com/IrisMQ/book/blob/master/patterns/irisreqrep.md)
+- [Iris Publish/Subscribe](https://github.com/IrisMQ/book/blob/master/patterns/irispubsub.md)
