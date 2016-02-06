@@ -39,6 +39,6 @@ Consider this example straight from RabbitMQ:
 
 - in the second consumer, C2 would subscribe to those three topics and indicate its channel as amq.gen-Ag1
 
-The concept of channel is NSQ's way to determine which consumer will receive which topic. That is, if you need to broadcast the same message to a certain number of consumers, each consumer must have a unique channel name. For instance, to broadcast one message to 20 consumers, you must have 20 unique channel names (consumer:channel is 1:1). See <a href="mq.html#nsqbroadcast">broadcast example</a>
+The concept of channel is NSQ's way to determine which consumer will receive which topic. That is, if you need to broadcast the same message to a certain number of consumers, each consumer must have a unique channel name. For instance, to broadcast one message to 20 consumers, you must have 20 unique channel names (consumer:channel is 1:1). See <a href="https://github.com/IrisMQ/book/blob/master/mq/nsqbroadcast.md">broadcast example</a>
 
-In this example, if NSQ sees the same channel name for our two consumers, NSQ will load balance the messages (that is, each consumer will get only one message). See <a href="mq.html#nsqbalancing">load balancing example</a>.
+In this example, if NSQ sees the same channel name for our two consumers, NSQ will load balance the messages (that is, each consumer will get only one message). See <a href="https://github.com/IrisMQ/book/blob/master/mq/nsqbalancing.md">load balancing example</a>.
