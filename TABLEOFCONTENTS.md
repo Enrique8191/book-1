@@ -41,3 +41,7 @@
 - [Balancing Example](https://github.com/IrisMQ/book/blob/master/mq/nsqbalancing.md)
 - [Broadcast Example](https://github.com/IrisMQ/book/blob/master/mq/nsqbroadcast.md)
 - [Simulating Consumer Error](https://github.com/IrisMQ/book/blob/master/mq/nsqerror.md)
+
+### NSQ Scenarios
+
+- [One Node - Scenario 1](https://github.com/IrisMQ/book/blob/master/mq/s1a.md)
