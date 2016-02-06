@@ -9,6 +9,8 @@
 
 </script>
 
+Author: [Isagani Mendoza](http://twitter.com/ibm2100) <br>
+
 IrisMQ is a do-it-yourself toolkit for building microservices based on [Iris](https://github.com/ibmendoza/project-iris) and [NSQ](http://nsq.io)
 
 |      | RPC  | Publish/Subscribe                           |Broadcast     |Clustering       |
