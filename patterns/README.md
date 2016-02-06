@@ -16,3 +16,4 @@
 - [Message Timeout](https://github.com/IrisMQ/book/blob/master/patterns/timeout.md)
 - [Error Handling](https://github.com/IrisMQ/book/blob/master/patterns/error.md)
 - [Fire-and-Forget](https://github.com/IrisMQ/book/blob/master/patterns/firenforget.md)
+- [Iris Request/Reply](https://github.com/IrisMQ/book/blob/master/patterns/irisreqrep.md)
