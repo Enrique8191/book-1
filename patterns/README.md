@@ -15,3 +15,4 @@
 - [Message Retry and Backoff](https://github.com/IrisMQ/book/blob/master/patterns/retry.md)
 - [Message Timeout](https://github.com/IrisMQ/book/blob/master/patterns/timeout.md)
 - [Error Handling](https://github.com/IrisMQ/book/blob/master/patterns/error.md)
+- [Fire-and-Forget](https://github.com/IrisMQ/book/blob/master/patterns/firenforget.md)
