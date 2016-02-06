@@ -50,7 +50,7 @@ the algorithm of the Iris runtime.
 
 It is important to note that the message will go to only one consumer among multiple consumers in the cluster.
 
-See <a href="#requestreply">Request/Reply</a> for example.
+See <a href="https://github.com/IrisMQ/book/blob/master/principles/requestreply.md">Request/Reply</a> for example.
 
 
 **Multicast**
