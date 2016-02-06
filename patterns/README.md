@@ -14,3 +14,4 @@
 - [The Price of Messaging: Deduplication](https://github.com/IrisMQ/book/blob/master/patterns/dedup.md)
 - [Message Retry and Backoff](https://github.com/IrisMQ/book/blob/master/patterns/retry.md)
 - [Message Timeout](https://github.com/IrisMQ/book/blob/master/patterns/timeout.md)
+- [Error Handling](https://github.com/IrisMQ/book/blob/master/patterns/error.md)
