@@ -13,7 +13,7 @@
 
 Deduplication is the process of detecting duplicate messages at the consumer level.
 
-Why? Well, you need to read more about the [principles](patterns.html#principles) of distributed systems.
+Why? Well, you need to read more about the [principles](https://github.com/IrisMQ/book/blob/master/patterns/principles.md) of distributed systems.
 
 In the case of single-node computing, the message producer and message consumer are on the same node so it is easy for the latter to discard  duplicate messages.
 
