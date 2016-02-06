@@ -11,3 +11,5 @@
 - [Routing](https://github.com/IrisMQ/book/blob/master/patterns/route.md)
 - [Unicast](https://github.com/IrisMQ/book/blob/master/patterns/uni.md)
 - [Fast Producer, Slow Consumer](https://github.com/IrisMQ/book/blob/master/patterns/fpsc.md)
+- [The Price of Messaging: Deduplication](https://github.com/IrisMQ/book/blob/master/patterns/dedup.md)
+- [Message Retry and Backoff](https://github.com/IrisMQ/book/blob/master/patterns/retry.md)
