@@ -22,7 +22,7 @@ A node is a physical or virtual machine. You may instantiate new VMs with Virtua
 
 Notes:
 
-- First and foremost, NSQ also sports load balancing (see <a href="mq.html#nsqbalancing">example</a>)
+- First and foremost, NSQ also sports load balancing (see <a href="https://github.com/IrisMQ/book/blob/master/mq/nsqbalancing.md">example</a>)
 - I assume you have Turnkey Linux Core 14 VMs
 - You can put the Iris executable and RSA key pair to any folder of your choosing
 - On VirtualBox > Preferences > Network > Host-only Networks, these are my settings:
