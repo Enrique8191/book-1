@@ -49,3 +49,4 @@
 - [One Node - Scenario 3](https://github.com/IrisMQ/book/blob/master/mq/s1c.md)
 - [Two Nodes - Scenario 1](https://github.com/IrisMQ/book/blob/master/mq/s2a.md)
 - [Two Nodes - Scenario 2](https://github.com/IrisMQ/book/blob/master/mq/s2b.md)
+- [Two Nodes - Scenario 3](https://github.com/IrisMQ/book/blob/master/mq/s2c.md)
