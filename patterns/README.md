@@ -7,4 +7,5 @@
 - [Message Format](https://github.com/IrisMQ/book/blob/master/patterns/format.md)
 - [Cluster in a Node](https://github.com/IrisMQ/book/blob/master/patterns/grace.md)
 - [Work Queues](https://github.com/IrisMQ/book/blob/master/patterns/wq.md)
+- [Publish/Subscribe](https://github.com/IrisMQ/book/blob/master/patterns/pubsub.md)
 
