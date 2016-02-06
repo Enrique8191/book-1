@@ -30,3 +30,9 @@
 - [Publish/Subscribe](https://github.com/IrisMQ/book/blob/master/principles/pubsub.md)
 - [Broadcast](https://github.com/IrisMQ/book/blob/master/principles/broadcast.md)
 - [Routing Patterns](https://github.com/IrisMQ/book/blob/master/principles/routing.md)
+
+## Message Queue
+
+### NSQ
+
+- [NSQ Prerequisite](https://github.com/IrisMQ/book/blob/master/mq/nsq.md)
