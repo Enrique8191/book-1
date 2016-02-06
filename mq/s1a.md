@@ -35,6 +35,4 @@ Notes:
 
 3) Run nsqadmin UI
 
-On your Web browser, type
-
-```http://192.168.56.101:4171```
+On your Web browser, type ```http://192.168.56.101:4171```
