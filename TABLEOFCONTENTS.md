@@ -45,3 +45,4 @@
 ### NSQ Scenarios
 
 - [One Node - Scenario 1](https://github.com/IrisMQ/book/blob/master/mq/s1a.md)
+- [One Node - Scenario 2](https://github.com/IrisMQ/book/blob/master/mq/s1b.md)
