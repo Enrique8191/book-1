@@ -40,3 +40,4 @@
 - [Basic Example](https://github.com/IrisMQ/book/blob/master/mq/nsqbasic.md)
 - [Balancing Example](https://github.com/IrisMQ/book/blob/master/mq/nsqbalancing.md)
 - [Broadcast Example](https://github.com/IrisMQ/book/blob/master/mq/nsqbroadcast.md)
+- [Simulating Consumer Error](https://github.com/IrisMQ/book/blob/master/mq/nsqerror.md)
