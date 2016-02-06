@@ -11,12 +11,12 @@
 
 ### Iris Cluster Architecture
 
-Iris has a unified model of combining [two fundamentally different processing modes](index.html#processing) into one API:
+Iris has a unified model of combining [two fundamentally different processing modes](https://github.com/IrisMQ/book/blob/master/principles/processing.md) into one API:
 
 - RPC (synchronous request/reply has timeout)
 - Messaging (asynchronous patterns like broadcast and publish/subscribe)
 
-In this material, you will learn that messaging and [clustering](index.html#clustering) are just two facets of the same coin.
+In this material, you will learn that messaging and [clustering](https://github.com/IrisMQ/book/blob/master/principles/clustering.md) are just two facets of the same coin.
 
 **Architecture**
 
