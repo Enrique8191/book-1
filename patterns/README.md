@@ -9,4 +9,5 @@
 - [Work Queues](https://github.com/IrisMQ/book/blob/master/patterns/wq.md)
 - [Publish/Subscribe](https://github.com/IrisMQ/book/blob/master/patterns/pubsub.md)
 - [Routing](https://github.com/IrisMQ/book/blob/master/patterns/route.md)
+- [Unicast](https://github.com/IrisMQ/book/blob/master/patterns/uni.md)
 
