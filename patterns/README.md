@@ -19,3 +19,4 @@
 - [Iris Request/Reply](https://github.com/IrisMQ/book/blob/master/patterns/irisreqrep.md)
 - [Iris Publish/Subscribe](https://github.com/IrisMQ/book/blob/master/patterns/irispubsub.md)
 - [Iris Broadcast](https://github.com/IrisMQ/book/blob/master/patterns/irisbroadcast.md)
+- [RPC with Iris](https://github.com/IrisMQ/book/blob/master/RPC.md)
