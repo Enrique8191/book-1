@@ -19,9 +19,7 @@ or more Turnkey Linux VMs (virtual machines) using host-only networking.
 Assumption: ip address = 192.168.56.101
 
 
-1) Run nsqd
-
-```nsqd```
+1) Run ```nsqd```
 
 Notes: 
 
