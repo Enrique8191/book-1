@@ -192,7 +192,7 @@ Output
 2015/12/02 08:10:42 INF    1 [test/ch] querying nsqlookupd http://:4161/lookup?topic=test  
 ```
 
-![cerror](../../img/cerror.png)
+<img src="https://itjumpstart.files.wordpress.com/2015/12/cerror.png">
 
 Looking at the output of NSQ and NSQAdmin, you can see that there are six instances of errors (that is, those that returned even number of vowels).
 
