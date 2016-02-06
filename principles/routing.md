@@ -15,7 +15,7 @@
 
 Unicast is a type of broadcast where a producer sends its message to only one consumer.
 
-<img src="https://itjumpstart.wordpress.com/320px-unicast-svg/">
+<img src="https://itjumpstart.files.wordpress.com/2016/02/320px-unicast-svg.png">
 
 For message producer, you will use the Register command as broadcast handler.
 
@@ -39,11 +39,11 @@ iris -dev
 
 Once the Iris cluster is up and running, you can use any cluster name of your choosing for use by both message producer and consumer (of course).
 
-See <a href="#broadcast">Broadcast</a> for example.
+See <a href="https://github.com/IrisMQ/book/blob/master/principles/broadcast.md">Broadcast</a> for example.
 
 **Anycast (Load Balancing)**
 
-<img src="https://itjumpstart.wordpress.com/320px-anycast-svg/">
+<img src="https://itjumpstart.files.wordpress.com/2016/02/320px-anycast-svg.png">
 
 In Iris, the request/reply pattern also doubles as the anycast pattern. The message will be load balanced among multiple consumers based on
 the algorithm of the Iris runtime.
@@ -57,7 +57,7 @@ See <a href="#requestreply">Request/Reply</a> for example.
 
 Multicast is a type of broadcast wherein you select a group of two or more consumers in a cluster for message broadcast.
 
-<img src="https://itjumpstart.wordpress.com/320px-multicast-svg/">
+<img src="https://itjumpstart.files.wordpress.com/2016/02/320px-multicast-svg.png">
 
 For example, consider a cluster of 20 computers. Assuming 14 out of those 20 computers were fully updated. You want the remaining 6 computers
 to be updated so you get their respective IP addresses and update them accordingly.
