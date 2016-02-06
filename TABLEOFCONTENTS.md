@@ -36,3 +36,4 @@
 ### NSQ
 
 - [NSQ Prerequisite](https://github.com/IrisMQ/book/blob/master/mq/nsq.md)
+- [Topics and Channels](https://github.com/IrisMQ/book/blob/master/mq/topics.md)
