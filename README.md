@@ -9,7 +9,12 @@
 
 </script>
 
-Author: [Isagani Mendoza](http://twitter.com/ibm2100) <br>
+IrisMQ Guide Author: [Isagani Mendoza](http://twitter.com/ibm2100) <br>
+
+Acknowledgment: <br>
+
+- [Iris](https://github.com/project-iris) (github.com/karalabe et al)
+- [NSQ](https://github.com/nsqio) (github.com/jehiah, github.com/mreiferson et al)
 
 IrisMQ is a do-it-yourself toolkit for building microservices based on [Iris](https://github.com/ibmendoza/project-iris) and [NSQ](http://nsq.io)
 
