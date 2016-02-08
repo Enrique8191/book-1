@@ -43,3 +43,5 @@ Goals and non-goals are shamelessly copied from [go-kit](http://engineering.dail
 There is nothing fundamentally wrong with go-kit or [micro](https://github.com/micro/micro). They are just fundamentally different from IrisMQ. Hey, this is open source so you are more than welcome to embrace diversity!
 
 IrisMQ favors ["anything goes"](https://en.wikipedia.org/wiki/Epistemological_anarchism) the way computing should be. You can use any languages, libraries or packages you want as long as they implement NSQ and/or Iris protocols.
+
+In essence, you can adapt code from go-kit, micro and thousands of other packages and [weave](https://en.wikipedia.org/wiki/Ploceidae) them according to your purpose.
