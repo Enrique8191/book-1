@@ -13,8 +13,9 @@ IrisMQ Guide Author: [Isagani Mendoza](http://twitter.com/ibm2100) <br>
 
 Acknowledgment: <br>
 
-- [Iris](https://github.com/project-iris) (github.com/karalabe et al)
-- [NSQ](https://github.com/nsqio) (github.com/jehiah, github.com/mreiferson et al)
+- [Iris](https://github.com/project-iris) [Péter Szilágyi](https://github.com/karalabe)
+- [NSQ](https://github.com/nsqio) [Jehiah Czebotar](github.com/jehiah), [Matt Reiferson](https://github.com/mreiferson)
+- To Iris and NSQ community
 
 IrisMQ is a do-it-yourself toolkit for building microservices based on [Iris](https://github.com/ibmendoza/project-iris) and [NSQ](http://nsq.io)
 
