@@ -9,6 +9,8 @@
 
 </script>
 
+Before anything else, read ["How to build stable systems"](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#) from Jesper Andersen
+
 IrisMQ Guide Author: [Isagani Mendoza](http://twitter.com/ibm2100) <br>
 
 Acknowledgment: <br>
