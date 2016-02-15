@@ -84,7 +84,7 @@ func main() {
 }
 ```
 
-Other related Go packages:
+Other related links:
 
 - https://github.com/eapache/go-resiliency
 - https://github.com/sethgrid/pester
@@ -92,3 +92,4 @@ Other related Go packages:
 - https://github.com/mreiferson/go-httpclient
 - https://github.com/rubyist/circuitbreaker
 - https://github.com/sony/gobreaker
+- [Don't use Go's default HTTP client](https://medium.com/@nate510/don-t-use-go-s-default-http-client-4804cb19f779#)
