@@ -88,4 +88,6 @@ Moreover, the request/reply pattern of Iris which handles timeouts also double a
 
 To sum it up, with IrisMQ, NSQ handles the concurrency aspect of distributed computing while Iris handles error propagation.
 
+**Related Links**
 
+- [Turn expected exceptions into metrics](http://yellerapp.com/posts/2015-06-01-getting-to-exception-zero.html)
