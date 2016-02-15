@@ -128,3 +128,8 @@ memcache: cache miss
 Try to kill the first instance of Onecache. You will see that Onecache is still able to set and get request in spite of losing one instance of key-value store.
 
 At the time of writing, Onecache is a side-project but it's great for local testing if your production uses memcached.
+
+**Related Links**
+
+- [Stream de-duplication](http://www.davegardner.me.uk/blog/2012/11/06/stream-de-duplication)
+- [Probabilistic data structures](https://github.com/tylertreat/BoomFilters)
