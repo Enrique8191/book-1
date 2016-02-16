@@ -84,12 +84,16 @@ func main() {
 }
 ```
 
-Other related links:
+**Related Links**
 
+- https://github.com/bep/killswitch
 - https://github.com/eapache/go-resiliency
-- https://github.com/sethgrid/pester
+- https://github.com/matryer/try
+- https://github.com/ibmendoza/pester
 - https://github.com/carlescere/goback
+- https://github.com/jpillora/backoff
 - https://github.com/mreiferson/go-httpclient
-- https://github.com/rubyist/circuitbreaker
-- https://github.com/sony/gobreaker
+- https://github.com/cenkalti/backoff
+- https://github.com/droyo/retry
+- https://github.com/VividCortex/robustly
 - [Don't use Go's default HTTP client](https://medium.com/@nate510/don-t-use-go-s-default-http-client-4804cb19f779#)
