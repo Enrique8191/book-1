@@ -25,7 +25,7 @@ a proxy.
 
 **First** is old-school IP address-based (or instance-based) clustering.
 
-You can see it almost everywhere from HAProxy, MySQL replication, Caddy proxy, nginx, etc. At least with Consul, an agent only needs to learn about one existing member.
+You can see it almost everywhere from HAProxy, MySQL replication, RethinkDB, Caddy proxy, nginx, etc. At least with Consul, an agent only needs to learn about one existing member.
 
 **Second** is name-based clustering which is being used by Project Iris.
 
@@ -60,3 +60,10 @@ If the cluster needs to maintain its state using a distributed key-value store, 
 - Iris has its own protocol but the advantage is, your apps use one and the same protocol to communicate with the cluster
 
 So while system software each has their own version of messaging, would it be better if we just standardize on just one or two protocols for your business apps communicating within the cluster?
+
+**Bottomline**
+
+With respect to three-tier architecture, we may categorize clustering depending on the logic tier or the database tier.
+
+- Logic Tier Clustering - this refers to either instance-based clustering or Iris clustering (it's your choice) at the business logic or application tier.
+- Database Tier Clustering - this is "anything goes". Each respective database has its own way of clustering. Cassandra, RethinkDB, InfluxDB, you name it. You have no control over this except if you are its maintainer!
