@@ -65,5 +65,5 @@ So while system software each has their own version of messaging, would it be be
 
 With respect to three-tier architecture, we may categorize clustering depending on the logic tier or the database tier.
 
-- Logic Tier Clustering - this refers to either instance-based clustering or Iris clustering (it's your choice) at the business logic or application tier. This is the **stateless** tier so it exhibits [eventual consistency](https://en.wikipedia.org/wiki/Consistency_model#Eventual_consistency).
+- Logic Tier Clustering - this refers to either instance-based clustering or Iris clustering at the business logic or application tier. This is the **stateless** tier so it exhibits [eventual consistency](https://en.wikipedia.org/wiki/Consistency_model#Eventual_consistency).
 - Database Tier Clustering - this is "anything goes". Each respective database has its own way of clustering. Cassandra, RethinkDB, InfluxDB, you name it. You have no control over this except if you are its maintainer! This is the **stateful** tier so it exhibits [strong consistency](https://en.wikipedia.org/wiki/Strong_consistency)
