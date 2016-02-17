@@ -111,6 +111,7 @@ messaging patterns like the following:
 - anycast
 - unicast
 - reactive patterns (ReactiveX, [Kefir](https://github.com/rpominov/kefir), etc)
+- [RethinkDB](https://www.rethinkdb.com/faq) apps
 
 In the world of ReactiveX, push-based processing is known as Observables. For single items, it is called futures. For multiple items, it is
 called observables. However, with observables, it unifies the paradigm of futures into one common API so using observables is like killing
