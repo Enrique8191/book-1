@@ -11,6 +11,8 @@
 
 ### Why Messaging?
 
+***Messaging is not an either/or proposition between using peer-to-peer and client/server. It is about when to use which depending on use case***
+
 First and foremost, let me be clear about the term messaging. In this material, I am not talking about messaging in the sense of text messaging, Web sockets, instant messaging and other user-facing communication.
 
 As a matter of fact, I am talking about the opposite: that of messaging which is not part of the user-facing aspect of any process.
