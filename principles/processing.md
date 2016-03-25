@@ -27,6 +27,7 @@ As far as computing is concerned, there are only two types of processing modes:
 - REST - GET, POST (based on HTTP or HTTP/2)
 - GraphQL - form of Map/Reduce
 - Map/Reduce - Hadoop
+- Kafka - consumers pull messages from the message broker (Kafka)
 
 This is the first model taught in computing, the classic Hello World example.
 
@@ -112,6 +113,7 @@ messaging patterns like the following:
 - unicast
 - reactive patterns (ReactiveX, [Kefir](https://github.com/rpominov/kefir), etc)
 - [RethinkDB](https://www.rethinkdb.com/faq) apps
+- NSQ (message broker) pushes messages to consumers
 
 In the world of ReactiveX, push-based processing is known as Observables. For single items, it is called futures. For multiple items, it is
 called observables. However, with observables, it unifies the paradigm of futures into one common API so using observables is like killing
