@@ -27,7 +27,7 @@ As far as computing is concerned, there are only two types of processing modes:
 - REST - GET, POST (based on HTTP or HTTP/2)
 - GraphQL - form of Map/Reduce
 - Map/Reduce - Hadoop
-- Kafka - consumers pull messages from the message broker (Kafka)
+- Kafka - [consumers](http://sookocheff.com/post/kafka/kafka-in-a-nutshell/) [pull messages](https://kafka.apache.org/08/design.html) from the message broker (Kafka)
 
 This is the first model taught in computing, the classic Hello World example.
 
