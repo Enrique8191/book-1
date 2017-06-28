@@ -1,14 +1,3 @@
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-71257746-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
 ### Cluster in a Node
 
 A Go package from Facebook called [grace](https://github.com/facebookgo/grace) lets you build two or more HTTP-based or net-based servers in a single node (physical or virtual machine) and link them accordingly such that should one server fails, the cluster won't lose the connection.
