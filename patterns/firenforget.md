@@ -1,14 +1,3 @@
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-71257746-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
 ### Fire-and-Forget
 
 Synchronous error handling is only possible with the request/reply pattern so how do you handle errors in asynchronous operations like unicast, anycast, groupcast, broadcast or publish/subscribe? Just as in life, this all boils down to design decisions. From the point of view of the program invoking the asynchronous operation, it is fire-and-forget. Of course, you need to deal with errors but unlike request/reply, you delegate error handling to yet another external process like logs ([syslog](http://jasonwilder.com/blog/2013/07/16/centralized-logging-architecture/), third-party log services, etc).
